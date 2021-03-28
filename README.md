@@ -1,4 +1,4 @@
-# auth-firebase
+# Boiler plate
 
 ## Project setup
 ```
