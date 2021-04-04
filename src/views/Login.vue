@@ -1,47 +1,68 @@
 <template>
-	<v-container class="container"
-		><v-card class="mx-auto card" min-width="600">
-			<div class="title">
-				<span class="logo">FarmWeather</span>
-			</div>
-		</v-card></v-container
-	>
+	<div class="container">
+		<v-card elevation="8" class="card">
+			<div class="dot-1"></div>
+
+			<div class="dot-2"></div>
+
+			<div class="card-title">Faça seu login</div>
+		</v-card>
+	</div>
 </template>
 
 <script>
 export default {
 	name: "login",
+
 	data() {
-		return {
-			type: true,
-			show: false,
-		};
+		return {};
 	},
 };
 </script>
 
 <style lang="less">
 .container {
-	height: 100vh;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+
+	height: 100vh;
+
 	align-items: center;
 
+	justify-content: center;
+
+	width: 100%;
+
+	background: #efefef;
+
 	.card {
-		padding: 12px;
+		width: 48vw;
 
-		.title {
-			padding: 12px 0 0 8px;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-around;
-			align-items: center;
+		height: auto;
 
-			.logo {
-				text-align: center;
-				font-weight: bold;
-			}
+		padding: 24px;
+
+		outline: 0;
+
+		position: relative;
+
+		.card-title {
+			font-size: 24px;
+
+			text-align: center;
+
+			font-weight: 600;
+		}
+
+		.dot-1 {
+			position: absolute;
+
+			width: 120px;
+
+			height: 120px;
+
+			border-radius: 50%;
+
+			background: ;
 		}
 	}
 }
