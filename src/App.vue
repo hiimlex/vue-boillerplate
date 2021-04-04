@@ -15,3 +15,13 @@ export default Vue.extend({
 	}),
 });
 </script>
+
+<style lang="less">
+body {
+	box-sizing: border-box;
+	outline: 0;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	background: #dad7d7;
+}
+</style>
