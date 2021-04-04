@@ -61,8 +61,6 @@ export default {
 			height: 120px;
 
 			border-radius: 50%;
-
-			background: ;
 		}
 	}
 }
